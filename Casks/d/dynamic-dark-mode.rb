@@ -7,6 +7,8 @@ cask "dynamic-dark-mode" do
   desc "Automatic Dark Mode toggle"
   homepage "https://github.com/ApolloZhu/Dynamic-Dark-Mode"
 
+  deprecate! date: "2023-12-17", because: :discontinued
+
   auto_updates true
   depends_on macos: ">= :mojave"
 

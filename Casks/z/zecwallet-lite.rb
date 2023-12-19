@@ -8,10 +8,7 @@ cask "zecwallet-lite" do
   desc "Zcash Light Wallet"
   homepage "https://www.zecwallet.co/#download"
 
-  livecheck do
-    url :url
-    strategy :github_latest
-  end
+  deprecate! date: "2023-12-17", because: :discontinued
 
   app "Zecwallet Lite.app"
 
